@@ -81,3 +81,17 @@ function copyClipboard(){
     document.execCommand('copy');
 }
 generatePassword();
+// my details
+detail = [
+    {
+        "first_name": "Shankar",
+        "last_name": "Lamichhane",
+        "email": "shankarlmc012@gmail.com",
+        "facebook": "https://facebook.com/shankarlmc012",
+        "twitter": "https://twitter.com/sha_n_kar_lmc",
+        "github": "https://github.com/shankarlmc",
+        "instagram": "https://www.instagram.com/sha_n_kar_lamichhane/",
+        "linkedin": "https://www.linkedin.com/in/shankarlmc/",
+        "website": "https://shankarlamichhane.com.np",
+    },
+]
