@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <!--Fontawesome Icons-->
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="output">
+        <button>
+            <i class="fa fa-random" onclick="generatePassword()"></i>
+        </button>
+        <button>
+            <i class="fa fa-copy" onclick="copyClipboard()"></i>
+        </button>
+        <div class="indicator">
+            <span class="weak"></span>
+            <span class="medium"></span>
+            <span class="strong"></span>
+        </div>
+        <div class="result">Password Strength is weak!</div>
+        <input type="range" id="length" min="7" max="20" value="7" oninput="generatePassword()">
+        <h3 id="length-val">7</h3>
+    </div>
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+
+</html>
