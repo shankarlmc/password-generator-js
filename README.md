@@ -16,7 +16,7 @@ Generated password is categorized into three part i.e weak, medium and strong wi
     /(?=.*[a-z])(?=.*[0-9].*[0-9])(?=.*[A-Z].*[A-Z])(?=.*[!@#$%^&*{}.:;?/|"()<>].*[!@#$%^&*{}.:;?/|"()<>])[a-zA-Z0-9!@#$%^&*{}.:;?/|"()<>]/
     ```  
 
-## [Goto live](https://shankarlmc.github.io/form-validation-js/ "Form Validation" )
+## [Goto live](https://shankarlmc.github.io/password-generator-js/ "Generate Password" )
 
 ### Password Strong Indicator
 
